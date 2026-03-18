@@ -5,7 +5,7 @@ import io
 st.set_page_config(page_title="EC_AUTO 데이터 대조 도구", layout="wide")
 
 st.title("📂 EC_AUTO 데이터 대조 자동화")
-st.info("동료분께: 드롭박스에서 받은 파일을 아래에 각각 넣어주세요.")
+st.info("드롭박스에서 받은 파일을 아래에 각각 넣어주세요.")
 
 # 1. 파일 업로드 섹션
 col1, col2 = st.columns(2)
